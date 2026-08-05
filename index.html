@@ -1,1 +1,201 @@
-<html><body>placeholder</body></html>
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>每日综合晨报 · 2026年8月5日</title>
+<meta name="description" content="每日 AI 动态 + 全国经济 + 世界政治 + A股市场综合晨报">
+<meta name="theme-color" content="#0071e3" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="每日晨报">
+<meta name="mobile-web-app-capable" content="yes">
+<link rel="apple-touch-icon" href="data:image/svg+xml,&lt;svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 180 180'&gt;&lt;rect width='180' height='180' rx='40' fill='%230071e3'/&gt;&lt;text x='90' y='75' text-anchor='middle' fill='%23fff' font-size='52' font-family='-apple-system,sans-serif' font-weight='700'&gt;每日&lt;/text&gt;&lt;text x='90' y='135' text-anchor='middle' fill='%23fff' font-size='52' font-family='-apple-system,sans-serif' font-weight='700'&gt;晨报&lt;/text&gt;&lt;/svg&gt;">
+<style>
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+:root{
+--bg:#f5f5f7;--card-bg:#fff;--text-primary:#1d1d1f;--text-secondary:#6e6e73;--text-tertiary:#86868b;
+--accent:#0071e3;--border:rgba(0,0,0,.08);
+--shadow:0 1px 3px rgba(0,0,0,.04),0 4px 12px rgba(0,0,0,.04);
+--shadow-hover:0 2px 8px rgba(0,0,0,.06),0 8px 24px rgba(0,0,0,.08);
+--radius:16px;--radius-sm:10px;--max-width:1080px;
+--chip-bg:#f0f0f3;--chip-text:#515154;
+--divider:rgba(0,0,0,.06);
+}
+@media(prefers-color-scheme:dark){
+:root{
+--bg:#000;--card-bg:#1c1c1e;--text-primary:#f5f5f7;--text-secondary:#a1a1a6;--text-tertiary:#6e6e73;
+--accent:#2997ff;--border:rgba(255,255,255,.1);
+--shadow:0 1px 3px rgba(0,0,0,.3),0 4px 12px rgba(0,0,0,.2);
+--shadow-hover:0 2px 8px rgba(0,0,0,.4),0 8px 24px rgba(0,0,0,.3);
+--chip-bg:#2c2c2e;--chip-text:#d1d1d6;
+--divider:rgba(255,255,255,.08);
+}
+}
+html{scroll-behavior:smooth;scroll-padding-top:80px}
+body{
+font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display","SF Pro Text","Helvetica Neue","PingFang SC","Noto Sans CJK SC","Microsoft YaHei",sans-serif;
+background:var(--bg);color:var(--text-primary);line-height:1.6;
+-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-size:15px;letter-spacing:-.01em;
+}
+.container{max-width:var(--max-width);margin:0 auto;padding:0 20px}
+.hero{padding:56px 0 40px;text-align:center}
+.hero-date{font-size:13px;font-weight:600;color:var(--accent);letter-spacing:.06em;text-transform:uppercase;margin-bottom:12px}
+.hero-title{font-size:clamp(30px,5vw,46px);font-weight:700;letter-spacing:-.03em;line-height:1.15;margin-bottom:14px;background:linear-gradient(135deg,var(--text-primary) 0%,var(--text-secondary) 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.hero-subtitle{font-size:17px;color:var(--text-secondary);margin-bottom:6px;font-weight:400}
+.hero-window{font-size:13px;color:var(--text-tertiary);margin-bottom:32px}
+.stats-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:20px}
+.stat-card{background:var(--card-bg);border-radius:var(--radius-sm);padding:18px 10px;text-align:center;box-shadow:var(--shadow);transition:transform .2s ease,box-shadow .2s ease;cursor:pointer;text-decoration:none;color:inherit;display:block}
+.stat-card:hover{transform:translateY(-2px);box-shadow:var(--shadow-hover)}
+.stat-icon{font-size:22px;margin-bottom:6px;display:block}
+.stat-count{font-size:26px;font-weight:700;letter-spacing:-.02em;color:var(--text-primary);line-height:1;margin-bottom:4px}
+.stat-label{font-size:11px;color:var(--text-secondary);font-weight:500;line-height:1.3}
+.nav{position:sticky;top:0;z-index:100;background:rgba(245,245,247,.82);backdrop-filter:saturate(180%) blur(20px);-webkit-backdrop-filter:saturate(180%) blur(20px);border-bottom:1px solid var(--divider);padding:12px 0;overflow-x:auto;-webkit-overflow-scrolling:touch}
+@media(prefers-color-scheme:dark){.nav{background:rgba(0,0,0,.82)}}
+.nav-inner{display:flex;gap:10px;white-space:nowrap}
+.nav-link{display:inline-flex;align-items:center;gap:4px;padding:8px 14px;border-radius:100px;background:var(--card-bg);color:var(--text-secondary);font-size:13px;font-weight:500;text-decoration:none;box-shadow:var(--shadow);transition:all .2s ease;border:1px solid var(--border)}
+.nav-link:hover,.nav-link.active{background:var(--accent);color:#fff;border-color:var(--accent)}
+.section{padding:36px 0;border-bottom:1px solid var(--divider)}
+.section-title{font-size:22px;font-weight:700;margin-bottom:22px;display:flex;align-items:center;gap:10px;letter-spacing:-.01em}
+.section-icon{font-size:24px}
+.section-count{font-size:14px;font-weight:600;color:var(--text-tertiary);background:var(--chip-bg);padding:2px 10px;border-radius:100px;margin-left:auto}
+.cards-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:16px}
+@media(max-width:640px){.cards-grid{grid-template-columns:1fr}.stats-grid{grid-template-columns:repeat(2,1fr)}.hero{padding:40px 0 28px}}
+.card{background:var(--card-bg);border-radius:var(--radius);padding:20px;box-shadow:var(--shadow);transition:transform .25s ease,box-shadow .25s ease;border:1px solid var(--border);display:flex;flex-direction:column;gap:10px;animation:fadeIn .5s ease both}
+.card:hover{transform:translateY(-3px);box-shadow:var(--shadow-hover)}
+.card-header{display:flex;align-items:flex-start;gap:12px}
+.card-num{flex-shrink:0;display:flex;align-items:center;justify-content:center;width:28px;height:28px;border-radius:50%;background:var(--accent);color:#fff;font-size:13px;font-weight:700}
+.card-title{font-size:16px;font-weight:600;color:var(--text-primary);text-decoration:none;line-height:1.45;flex:1}
+.card-title:hover{color:var(--accent)}
+.card-summary{font-size:14px;color:var(--text-secondary);line-height:1.6;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.card-meta{display:flex;align-items:center;gap:10px;margin-top:auto;flex-wrap:wrap}
+.card-chip{display:inline-flex;align-items:center;padding:4px 10px;border-radius:6px;background:var(--chip-bg);color:var(--chip-text);font-size:12px;font-weight:500}
+.card-time{font-size:12px;color:var(--text-tertiary)}
+.empty-state{grid-column:1/-1;text-align:center;padding:48px 20px;color:var(--text-tertiary);font-size:15px;background:var(--card-bg);border-radius:var(--radius);border:1px dashed var(--border)}
+.footer{padding:40px 0 60px;text-align:center;color:var(--text-tertiary);font-size:13px;line-height:1.8}
+.footer strong{color:var(--text-secondary);font-weight:600}
+.footer a{color:var(--accent);text-decoration:none}
+.footer-source{margin-top:8px;font-size:12px}
+@keyframes fadeIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+</style>
+</head>
+<body>
+<header class="hero">
+<div class="container">
+<div class="hero-date">DAILY BRIEFING</div>
+<h1 class="hero-title">每日综合晨报</h1>
+<p class="hero-subtitle">2026年8月5日 · 共 59 条</p>
+<p class="hero-window">时间窗口：8月4日 08:00 — 8月5日 08:00（北京时间）</p>
+<div class="stats-grid">
+<a href="#ai-model" class="stat-card"><span class="stat-icon">🤖</span><div class="stat-count">6</div><div class="stat-label">模型发布/更新</div></a>
+<a href="#ai-product" class="stat-card"><span class="stat-icon">📦</span><div class="stat-count">8</div><div class="stat-label">产品发布/更新</div></a>
+<a href="#ai-industry" class="stat-card"><span class="stat-icon">📊</span><div class="stat-count">7</div><div class="stat-label">行业动态</div></a>
+<a href="#ai-paper" class="stat-card"><span class="stat-icon">📄</span><div class="stat-count">0</div><div class="stat-label">论文研究</div></a>
+<a href="#ai-opinion" class="stat-card"><span class="stat-icon">💡</span><div class="stat-count">8</div><div class="stat-label">技巧与观点</div></a>
+<a href="#cn-economy" class="stat-card"><span class="stat-icon">🇨🇳</span><div class="stat-count">10</div><div class="stat-label">全国经济发展</div></a>
+<a href="#world" class="stat-card"><span class="stat-icon">🌍</span><div class="stat-count">10</div><div class="stat-label">世界政治经济</div></a>
+<a href="#a-share" class="stat-card"><span class="stat-icon">📈</span><div class="stat-count">10</div><div class="stat-label">A股市场要闻</div></a>
+</div>
+</div>
+</header>
+<nav class="nav">
+<div class="container">
+<div class="nav-inner">
+<a href="#ai-model" class="nav-link">🤖 模型发布/更新</a>
+<a href="#ai-product" class="nav-link">📦 产品发布/更新</a>
+<a href="#ai-industry" class="nav-link">📊 行业动态</a>
+<a href="#ai-paper" class="nav-link">📄 论文研究</a>
+<a href="#ai-opinion" class="nav-link">💡 技巧与观点</a>
+<a href="#cn-economy" class="nav-link">🇨🇳 全国经济发展</a>
+<a href="#world" class="nav-link">🌍 世界政治经济</a>
+<a href="#a-share" class="nav-link">📈 A股市场要闻</a>
+</div>
+</div>
+</nav>
+<main class="container">
+<section class="section" id="ai-model"><h2 class="section-title"><span class="section-icon">🤖</span>模型发布/更新 <span class="section-count">6</span></h2><div class="cards-grid"><article class="card"><div class="card-header"><span class="card-num">1</span><a href="https://blogs.nvidia.com/blog/alpamayo-2-super-open-model-now-available" class="card-title" target="_blank" rel="noopener noreferrer">NVIDIA Alpamayo 2 Super 开放商用，面向 Robotaxi 与自动驾驶的前沿开源模型</a></div><p class="card-summary">NVIDIA Alpamayo 2 Super 现已开放商用，基于 Cosmos 3 Super Reasoner 构…</p><div class="card-meta"><span class="card-chip">NVIDIA Blog（RSS）</span></div></article>
+<article class="card"><div class="card-header"><span class="card-num">2</span><a href="https://x.com/SenseTime_AI/status/2084667189479837741" class="card-title" target="_blank" rel="noopener noreferrer">商汤 SenseNova U1 开源：统一推理与图像生成</a></div><p class="card-summary">商汤发布开源模型 SenseNova U1，可在统一流程中同时进行推理与图像生成。其信息图模式可将单条提示词转为结构化…</p><div class="card-meta"><span class="card-chip">X：商汤 SenseTime (@SenseTime_AI)</span></div></article>
+<article class="card"><div class="card-header"><span class="card-num">3</span><a href="https://x.com/OpenRouter/status/2084699413898027064" class="card-title" target="_blank" rel="noopener noreferrer">OpenRouter 上线 FLUX 3 Video 统一多模态模型</a></div><p class="card-summary">@bfl_ai 的 FLUX 3 Video 现已在 OpenRouter 上向所有人开放。 一个统一的视频、音频、图…</p><div class="card-meta"><span class="card-chip">X：OpenRouter (@OpenRouter)</span></div></article>
+<article class="card"><div class="card-header"><span class="card-num">4</span><a href="https://x.com/AntLingAGI/status/2084656533489754475" class="card-title" target="_blank" rel="noopener noreferrer">蚂蚁百灵发布Ling-3.0-flash开源权重</a></div><p class="card-summary">今天，我们发布了 Ling-3.0-flash 的开源权重。🎉 官方 BF16 和 FP8 量化版本现已可用，您可以根…</p><div class="card-meta"><span class="card-chip">X：蚂蚁百灵 (@AntLingAGI)</span></div></article>
+<article class="card"><div class="card-header"><span class="card-num">5</span><a href="https://mp.weixin.qq.com/s?__biz=MzkwODU2OTQyNQ%3D%3D&mid=2247498223&idx=1&sn=ae271ec2c72723393d3e1d8074a33205" class="card-title" target="_blank" rel="noopener noreferrer">腾讯混元发布 Hy ASR 3.0 preview：真正懂上下文的语音识别</a></div><p class="card-summary">腾讯混元发布新一代语音识别模型 Hy ASR 3.0 preview，基于大语言模型 Hy3 与 MoE 架构，融合高…</p><div class="card-meta"><span class="card-chip">公众号：腾讯混元</span></div></article>
+<article class="card"><div class="card-header"><span class="card-num">6</span><a href="https://bfl.ai/blog/flux-3-video" class="card-title" target="_blank" rel="noopener noreferrer">FLUX 3 Video, Part 1: Generation FLUX 3 Video, Part 1 August 4, 2026 Read more</a></div><p class="card-summary"></p><div class="card-meta"><span class="card-chip">Black Forest Labs：Blog（网页）</span></div></article></div></section>
+<section class="section" id="ai-product"><h2 class="section-title"><span class="section-icon">📦</span>产品发布/更新 <span class="section-count">8</span></h2><div class="cards-grid"><article class="card"><div class="card-header"><span class="card-num">7</span><a href="https://github.com/leonickson1/Swiftlet" class="card-title" target="_blank" rel="noopener noreferrer">Swiftlet：在 Mac 上运行 80B 版 Qwen（内存 4.3 GB），在 iPhone 上运行 35B 版</a></div><p class="card-summary">Swiftlet 是一个 Swift + Metal 运行时，可在普通 Apple 设备上运行 Qwen3-Next …</p><div class="card-meta"><span class="card-chip">Hacker News 热门（buzzing.cc 中文翻译）</span></div></article>
+<article class="card"><div class="card-header"><span class="card-num">8</span><a href="https://www.marktechpost.com/2026/08/04/reflex-open-sources-xy-a-rust-backed-super-fast-python-charting-library-that-keeps-100-million-point-charts-interactive" class="card-title" target="_blank" rel="noopener noreferrer">Reflex 开源 XY：基于 Rust 的超快 Python 绘图库，可保持 1 亿点图表交互流畅</a></div><p class="card-summary">Reflex AI 发布 Apache-2.0 许可的 Python 交互式 2D 绘图库 XY，通过 Rust 原生…</p><div class="card-meta"><span class="card-chip">MarkTechPost（RSS）</span></div></article>
+<article class="card"><div class="card-header"><span class="card-num">9</span><a href="https://mp.weixin.qq.com/s?__biz=Mzg3Mzg2MTg2NQ%3D%3D&mid=2247498861&idx=1&sn=d2d16692dd7eb27f9d466803f25c2b78" class="card-title" target="_blank" rel="noopener noreferrer">面壁智能开源 ForgeStencil：一周自动优化 100+ 工业与科学软件，全程零人工介入</a></div><p class="card-summary">面壁智能联合 OpenBMB 开源全球首个支持 Stencil 自动研究、自动部署的 AI 优化系统 ForgeSte…</p><div class="card-meta"><span class="card-chip">公众号：面壁智能（MiniCPM）</span></div></article>
+<article class="card"><div class="card-header"><span class="card-num">10</span><a href="https://github.com/MakazhanAlpamys/Soup" class="card-title" target="_blank" rel="noopener noreferrer">Soup v0.72.4：在4 GB显存笔记本GPU上微调8B模型</a></div><p class="card-summary">Soup 推出 v0.72.4，支持在配备 4 GB 显存的笔记本 GPU 上通过 QLoRA 微调 8B 模型，无需…</p><div class="card-meta"><span class="card-chip">Hacker News 热门（buzzing.cc 中文翻译）</span></div></article>
+<article class="card"><div class="card-header"><span class="card-num">11</span><a href="https://openrouter.ai/blog/announcements/ori-harness" class="card-title" target="_blank" rel="noopener noreferrer">OpenRouter 推出 ori CLI：为 Claude Code 等 Harness 提供开箱即用的优化配置</a></div><p class="card-summary">OpenRouter 发布 ori CLI，用户安装并登录后即可获得针对 Claude Code、Codex、Open…</p><div class="card-meta"><span class="card-chip">OpenRouter：Announcements（RSS）</span></div></article>
+<article class="card"><div class="card-header"><span class="card-num">12</span><a href="https://www.lmsys.org/blog/2026-08-04-specforge-v0-3" class="card-title" target="_blank" rel="noopener noreferrer">SpecForge v0.3.0 发布：统一解耦与共置投机解码栈，新增开放 SpecBundle 草稿模型</a></div><p class="card-summary">SpecForge v0.3.0 将目标模型推理与草稿模型训练分离，支持 EAGLE3、EAGLE3.1、P-EAGL…</p><div class="card-meta"><span class="card-chip">LMSYS：Blog（Chatbot Arena 团队）</span></div></article>
+<article class="card"><div class="card-header"><span class="card-num">13</span><a href="https://x.com/Replit/status/2084761337570144424" class="card-title" target="_blank" rel="noopener noreferrer">Replit 环境智能：免提示词自动生成设计</a></div><p class="card-summary">你无需提示词，也无需设计语言。 环境智能（Ambient Intelligence）会在每个画面旁显示建议卡片，每张卡…</p><div class="card-meta"><span class="card-chip">X：Replit (@Replit)</span></div></article>
+<article class="card"><div class="card-header"><span class="card-num">14</span><a href="https://blog.cloudflare.com/local-tracing" class="card-title" target="_blank" rel="noopener noreferrer">Cloudflare 让智能体通过本地追踪调试 Workers</a></div><p class="card-summary">Cloudflare 即日起在 wrangler dev 和 vite dev 中自动为本地 Worker 调用捕获 …</p><div class="card-meta"><span class="card-chip">Cloudflare Blog</span></div></article></div></section>
+<section class="section" id="ai-industry"><h2 class="section-title"><span class="section-icon">📊</span>行业动态 <span class="section-count">7</span></h2><div class="cards-grid"><article class="card"><div class="card-header"><span class="card-num">15</span><a href="https://x.com/rohanpaul_ai/status/2084655258102546579" class="card-title" target="_blank" rel="noopener noreferrer">Anthropic 与成立仅数月的云初创公司 Volta 签署 100 亿美元算力协议</a></div><p class="card-summary">Anthropic 与成立仅数月的云初创公司 Volta 签署 100 亿美元算力协议，约合每年 17 亿美元。Vol…</p><div class="card-meta"><span class="card-chip">X：Rohan Paul (@rohanpaul_ai)</span></div></article>
+<article class="card"><div class="card-header"><span class="card-num">16</span><a href="https://www.ithome.com/0/985/665.htm" class="card-title" target="_blank" rel="noopener noreferrer">工信部发布首部L3/L4自动驾驶系统安全要求强制性国标，2027年7月实施</a></div><p class="card-summary">工信部组织制定的《智能网联汽车 自动驾驶系统安全要求》（GB 44721—2026）强制性国家标准获批发布，拟于202…</p><div class="card-meta"><span class="card-chip">IT之家（RSS）</span></div></article>
+<article class="card"><div class="card-header"><span class="card-num">17</span><a href="https://x.com/thsottiaux/status/2084506501834829833" class="card-title" target="_blank" rel="noopener noreferrer">GPT-5.6 Luna降价80%永久生效</a></div><p class="card-summary">有些人显然误解了，但 GPT-5.6 Luna 降价 80% 不是临时噱头，而是永久的。效率提升不会消失。幸运的是。</p><div class="card-meta"><span class="card-chip">X：Tibo (@thsottiaux)</span></div></article>
+<article class="card"><div class="card-header"><span class="card-num">18</span><a href="https://www.anthropic.com/news/tino-cuellar" class="card-title" target="_blank" rel="noopener noreferrer">Mariano-Florentino (Tino) Cuéllar 加入 Anthropic 出任首席全球事务官</a></div><p class="card-summary">Anthropic 任命 Mariano-Florentino (Tino) Cuéllar 为首任首席全球事务官，负…</p><div class="card-meta"><span class="card-chip">Anthropic：Newsroom（网页）</span></div></article>
+<article class="card"><div class="card-header"><span class="card-num">19</span><a href="https://openai.com/index/third-party-cyber-evaluations-involving-openai-models" class="card-title" target="_blank" rel="noopener noreferrer">OpenAI 说明第三方网络安全评估事件并公布新保障措施</a></div><p class="card-summary">OpenAI 就近期第三方网络安全评估事件作出说明，并公布新的保障措施以强化 AI 模型测试与评估流程。相关措施旨在提…</p><div class="card-meta"><span class="card-chip">OpenAI：官网动态（RSS · 排除企业/客户案例）</span></div></article>
+<article class="card"><div class="card-header"><span class="card-num">20</span><a href="https://blogs.nvidia.com/blog/open-secure-ai-alliance-contributions" class="card-title" target="_blank" rel="noopener noreferrer">AI 领袖提出 SAFE 指南，强化智能体网络安全透明度</a></div><p class="card-summary">Linux 基金会发布共享 AI 事件交换（SAFE）指南征求意见稿，旨在将智能体网络安全事件转化为全生态共享防护。</p><div class="card-meta"><span class="card-chip">NVIDIA Blog（RSS）</span></div></article>
+<article class="card"><div class="card-header"><span class="card-num">21</span><a href="https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-july-2026" class="card-title" target="_blank" rel="noopener noreferrer">Google 发布 Gemini 3.6 Flash 等三款新模型及 Gemini Robotics ER 2</a></div><p class="card-summary">Google 在 7 月推出三款新 Gemini 模型——Gemini 3.6 Flash、3.5 Flash-Lit…</p><div class="card-meta"><span class="card-chip">Google Blog：AI（RSS）</span></div></article></div></section>
+<section class="section" id="ai-paper"><h2 class="section-title"><span class="section-icon">📄</span>论文研究 <span class="section-count">0</span></h2><div class="cards-grid"><div class="empty-state"><span>本版块今日暂无动态</span></div></div></section>
+<section class="section" id="ai-opinion"><h2 class="section-title"><span class="section-icon">💡</span>技巧与观点 <span class="section-count">8</span></h2><div class="cards-grid"><article class="card"><div class="card-header"><span class="card-num">22</span><a href="https://github.com/ryanzhou/deepseek-v4-flash-mi300x" class="card-title" target="_blank" rel="noopener noreferrer">在单颗 AMD MI300X 上运行 DeepSeek V4 Flash</a></div><p class="card-summary">一个开源仓库提供了在单颗 AMD MI300X 上生产运行 DeepSeek-V4-Flash-0731 的完整配置与…</p><div class="card-meta"><span class="card-chip">Hacker News 热门（buzzing.cc 中文翻译）</span></div></article>
+<article class="card"><div class="card-header"><span class="card-num">23</span><a href="https://simonwillison.net/2026/Aug/4/minimax-h3-mlx" class="card-title" target="_blank" rel="noopener noreferrer">MiniMax-H3 通过 MLX 移植可在 Apple Silicon 上运行</a></div><p class="card-summary">MiniMax 发布 MiniMax-H3，一个可接受文本、图像、音频和视频并生成最长 15 秒带音频视频片段的通用全…</p><div class="card-meta"><span class="card-chip">Simon Willison 博客</span></div></article>
+<article class="card"><div class="card-header"><span class="card-num">24</span><a href="https://www.marktechpost.com/2026/08/04/building-an-advanced-ai-skill-security-auditing-pipeline-with-nvidia-skillspector-langgraph-yara-rules-sarif-and-ci-policy-gates" class="card-title" target="_blank" rel="noopener noreferrer">用 NVIDIA SkillSpector、LangGraph、YARA 规则、SARIF 与 CI 策略门构建高级 AI 技能安全审计流水线</a></div><p class="card-summary">本教程演示如何用 NVIDIA SkillSpector 评估 AI 技能的安全态势，构建包含干净、风险、恶意及 MC…</p><div class="card-meta"><span class="card-chip">MarkTechPost（RSS）</span></div></article>
+<article class="card"><div class="card-header"><span class="card-num">25</span><a href="https://blog.cloudflare.com/astro-issue-triage" class="card-title" target="_blank" rel="noopener noreferrer">Cloudflare 如何用软件工厂将 Astro 的 GitHub issue 数降至零</a></div><p class="card-summary">Cloudflare 在 Astro 仓库上运行自动化 triage 流水线，通过隔离的 AI 子代理复现、诊断并修复…</p><div class="card-meta"><span class="card-chip">Cloudflare Blog</span></div></article>
+<article class="card"><div class="card-header"><span class="card-num">26</span><a href="https://github.blog/engineering/turn-one-giant-ai-generated-pull-request-to-a-reviewable-stack" class="card-title" target="_blank" rel="noopener noreferrer">GitHub 如何用堆叠式 Pull Request 拆解 AI 生成的巨型代码</a></div><p class="card-summary">GitHub 介绍用堆叠式 Pull Request（stacked PR）解决 AI 编码智能体生成巨型代码难以审查…</p><div class="card-meta"><span class="card-chip">GitHub Blog</span></div></article>
+<article class="card"><div class="card-header"><span class="card-num">27</span><a href="https://www.langchain.com/blog/how-to-evaluate-voice-agents-execution-outcomes-and-experience" class="card-title" target="_blank" rel="noopener noreferrer">如何用 LangSmith 评估语音智能体</a></div><p class="card-summary">LangChain 官方博客介绍如何用 LangSmith 评估语音智能体，覆盖执行、结果与来电者体验三个层面。评估手…</p><div class="card-meta"><span class="card-chip">LangChain：Blog（RSS）</span></div></article>
+<article class="card"><div class="card-header"><span class="card-num">28</span><a href="https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647684924&idx=1&sn=f9ecf13ac374f13dfa75f98f685a231d" class="card-title" target="_blank" rel="noopener noreferrer">从零开始，教你用Codex搓出属于你自己的第一个硬件</a></div><p class="card-summary">作者以零基础身份，全程通过与Codex对话，从需求讨论、电路搭建、代码烧录到3D打印组装，5天内做出一个能提醒久坐的猫…</p><div class="card-meta"><span class="card-chip">公众号：数字生命卡兹克</span></div></article>
+<article class="card"><div class="card-header"><span class="card-num">29</span><a href="https://www.tomtunguz.com/what-if-gpu-prices-double" class="card-title" target="_blank" rel="noopener noreferrer">杰文斯悖论还能持续吗：AI 定价分层如何支撑算力需求增长</a></div><p class="card-summary">科技巨头高管普遍表示算力供应仍无法满足需求，但 AI 定价却在上涨：Anthropic 7 月 24 日发布的 Fab…</p><div class="card-meta"><span class="card-chip">Tomer Tunguz 博客（VC 分析）</span></div></article></div></section>
+<section class="section" id="cn-economy"><h2 class="section-title"><span class="section-icon">🇨🇳</span>全国经济发展 <span class="section-count">10</span></h2><div class="cards-grid"><article class="card"><div class="card-header"><span class="card-num">30</span><a href="http://finance.eastmoney.com/news/1350,202608033829200855.html" class="card-title" target="_blank" rel="noopener noreferrer">央行：综合运用并适时调整货币政策工具 发挥好两项支持资本市场货币政策工具作用</a></div><p class="card-summary">【央行：综合运用并适时调整货币政策工具 发挥好两项支持资本市场货币政策工具作用】中国人民银行8月2日消息，中国人民银行…</p><div class="card-meta"><span class="card-chip">中国证券报</span><span class="card-time">2026-08-03 04:59:30</span></div></article>
+<article class="card"><div class="card-header"><span class="card-num">31</span><a href="https://news.cctv.com/2026/08/04/ARTI7h5cJMWPJTV3qwBYQxJQ260804.shtml" class="card-title" target="_blank" rel="noopener noreferrer">焦点访谈｜工厂科研一线涌现“新”力量 开局之年新质生产力蓬勃生长</a></div><p class="card-summary">中国经济向新向优，新质生产力正加速形成，成为高质量发展的有力支撑。</p><div class="card-meta"><span class="card-chip">央视网</span><span class="card-time">2026-08-04 21:58:12</span></div></article>
+<article class="card"><div class="card-header"><span class="card-num">32</span><a href="http://finance.eastmoney.com/news/1350,202608053832577727.html" class="card-title" target="_blank" rel="noopener noreferrer">打好政策“组合拳” 以优质消费环境激发消费潜力</a></div><p class="card-summary">新华社北京8月3日电题：打好政策“组合拳”以优质消费环境激发消费潜力新华社记者戴锦镕、魏玉坤随着一系列促消费政策举措落…</p><div class="card-meta"><span class="card-chip">新华社</span><span class="card-time">2026-08-05 15:55:30</span></div></article>
+<article class="card"><div class="card-header"><span class="card-num">33</span><a href="https://news.cctv.com/2026/08/05/ARTIsThJuupBYnyeNdZVIc7V260805.shtml" class="card-title" target="_blank" rel="noopener noreferrer">习近平经济思想指引中国经济高质量发展行稳致远</a></div><p class="card-summary">2026年，“十五五”开局之年。</p><div class="card-meta"><span class="card-chip">央视网</span><span class="card-time">2026-08-05 15:23:01</span></div></article>
+<article class="card"><div class="card-header"><span class="card-num">34</span><a href="http://finance.eastmoney.com/news/1348,202608053832584540.html" class="card-title" target="_blank" rel="noopener noreferrer">商务部新闻发言人就对相关进口打印复印办公设备发起对外贸易国家安全调查答记者问</a></div><p class="card-summary">【商务部新闻发言人就对相关进口打印复印办公设备发起对外贸易国家安全调查答记者问】根据《中华人民共和国对外贸易法》第四十…</p><div class="card-meta"><span class="card-chip">界面新闻</span><span class="card-time">2026-08-05 16:12:15</span></div></article>
+<article class="card"><div class="card-header"><span class="card-num">35</span><a href="http://finance.eastmoney.com/news/1348,202607313828100334.html" class="card-title" target="_blank" rel="noopener noreferrer">国家发改委：机构测算“十五五”时期算力网建设将新增直接投资4万亿元</a></div><p class="card-summary">国家发展改革委政策研究室主任、新闻发言人蒋毅在新闻发布会上表示，有关机构测算，“十五五”时期算力网建设将新增直接投资4…</p><div class="card-meta"><span class="card-chip">第一财经</span><span class="card-time">2026-07-31 10:35:01</span></div></article>
+<article class="card"><div class="card-header"><span class="card-num">36</span><a href="http://finance.eastmoney.com/news/1345,202607303826626131.html" class="card-title" target="_blank" rel="noopener noreferrer">中共中央政治局召开会议 分析研究当前经济形势和经济工作</a></div><p class="card-summary">【中共中央政治局召开会议 分析研究当前经济形势和经济工作】中共中央政治局7月30日召开会议，决定今年10月在北京召开中…</p><div class="card-meta"><span class="card-chip">新华社</span><span class="card-time">2026-07-30 14:34:58</span></div></article>
+<article class="card"><div class="card-header"><span class="card-num">37</span><a href="http://finance.eastmoney.com/news/1350,202608053832581211.html" class="card-title" target="_blank" rel="noopener noreferrer">商务部：对相关进口打印复印办公设备发起对外贸易国家安全立案调查</a></div><p class="card-summary">依据《中华人民共和国对外贸易法》第四十一条规定，为了维护对外贸易秩序，商务部可以自行或者会同国务院其他有关部门，就对外…</p><div class="card-meta"><span class="card-chip">财联社</span><span class="card-time">2026-08-05 16:02:33</span></div></article>
+<article class="card"><div class="card-header"><span class="card-num">38</span><a href="https://news.cctv.com/2026/08/05/ARTIQeJRWWh4zKy8pDTIsq6r260805.shtml" class="card-title" target="_blank" rel="noopener noreferrer">新型电力系统建设迎来“十五五”发展路线图</a></div><p class="card-summary">8月3日，国家发展改革委、国家能源局发布《新型电力系统建设“十五五”规划》，明确未来五年我国电力发展的总体思路，提出到…</p><div class="card-meta"><span class="card-chip">央视网</span><span class="card-time">2026-08-05 14:20:09</span></div></article>
+<article class="card"><div class="card-header"><span class="card-num">39</span><a href="https://news.cctv.com/2026/08/05/ARTImgOMIbaAlpRj77fkniiJ260805.shtml" class="card-title" target="_blank" rel="noopener noreferrer">在消费中感知中国发展活力</a></div><p class="card-summary">开放的中国，正成为全球的消费热土。如今，越来越多来华的外国游客将“购在中国”纳入行程，在消费中感受中国经济活力和文化魅…</p><div class="card-meta"><span class="card-chip">央视网</span><span class="card-time">2026-08-05 14:19:09</span></div></article></div></section>
+<section class="section" id="world"><h2 class="section-title"><span class="section-icon">🌍</span>世界政治经济 <span class="section-count">10</span></h2><div class="cards-grid"><article class="card"><div class="card-header"><span class="card-num">40</span><a href="http://finance.eastmoney.com/news/1345,202608053832381762.html" class="card-title" target="_blank" rel="noopener noreferrer">美媒：霍尔木兹海峡开放临时协议“接近达成”</a></div><p class="card-summary">【美媒：霍尔木兹海峡开放临时协议“接近达成”】据美国阿克西奥斯新闻网站4日报道，地区消息人士和美国官员表示，美国、伊朗…</p><div class="card-meta"><span class="card-chip">新华社</span><span class="card-time">2026-08-05 11:46:56</span></div></article>
+<article class="card"><div class="card-header"><span class="card-num">41</span><a href="http://finance.eastmoney.com/news/1351,202608053832605761.html" class="card-title" target="_blank" rel="noopener noreferrer">特朗普政府已退还1000亿美元关税，都给谁了？</a></div><p class="card-summary">自今年早些时候美国最高法院推翻总统特朗普利用《国际紧急经济权力法》（IEEPA）征收的大部分关税举措以来，特朗普政府已…</p><div class="card-meta"><span class="card-chip">第一财经</span><span class="card-time">2026-08-05 16:33:01</span></div></article>
+<article class="card"><div class="card-header"><span class="card-num">42</span><a href="https://news.cctv.com/2026/08/04/ARTIzWuDlMIhu6kdbcVFDk6g260804.shtml" class="card-title" target="_blank" rel="noopener noreferrer">美国务卿称有关重开霍尔木兹海峡的协议尚未敲定</a></div><p class="card-summary">当地时间8月4日，美国国务卿鲁比奥表示，与伊朗就重新开放霍尔木兹海峡进行的谈判“已经取得进展”，但协议尚未最终敲定，希…</p><div class="card-meta"><span class="card-chip">央视网</span><span class="card-time">2026-08-04 23:48:46</span></div></article>
+<article class="card"><div class="card-header"><span class="card-num">43</span><a href="http://finance.eastmoney.com/news/1351,202608053832584463.html" class="card-title" target="_blank" rel="noopener noreferrer">欧盟表示，已收到14亿欧元被冻结俄罗斯资产产生的收益，将用于“支持”乌克兰</a></div><p class="card-summary">欧盟表示，已收到14亿欧元被冻结俄罗斯资产产生的收益，将用于“支持”乌克兰</p><div class="card-meta"><span class="card-chip">财联社</span><span class="card-time">2026-08-05 16:09:49</span></div></article>
+<article class="card"><div class="card-header"><span class="card-num">44</span><a href="http://finance.eastmoney.com/news/1351,202608053831853761.html" class="card-title" target="_blank" rel="noopener noreferrer">油价大跌振奋人心！预测市场押注逆转：美联储9月可能不加息</a></div><p class="card-summary">【油价大跌振奋人心！预测市场押注逆转：美联储9月可能不加息】周二，美国国债价格全线上涨，因有关通过外交途径解决伊朗战争…</p><div class="card-meta"><span class="card-chip">财联社</span><span class="card-time">2026-08-05 08:45:39</span></div></article>
+<article class="card"><div class="card-header"><span class="card-num">45</span><a href="https://news.cctv.com/2026/08/05/ARTIWpRozGA1apCgMfOoATfw260805.shtml" class="card-title" target="_blank" rel="noopener noreferrer">美国海关已退回约1000亿美元关税</a></div><p class="card-summary">当地时间8月4日，美国国土安全部下属海关与边境保护局官员向美国国际贸易法院披露的数据显示，美国海关已退回约1000亿美…</p><div class="card-meta"><span class="card-chip">央视网</span><span class="card-time">2026-08-05 16:23:45</span></div></article>
+<article class="card"><div class="card-header"><span class="card-num">46</span><a href="https://news.cctv.com/2026/08/05/ARTIXWcTHuGxQqHVImo2By5f260805.shtml" class="card-title" target="_blank" rel="noopener noreferrer">北美观察丨美伊谈判出现反差 霍尔木兹方案浮出水面</a></div><p class="card-summary">美国财长贝森特表示，美伊有望在未来一两天内就恢复霍尔木兹海峡通航达成协议；美国务卿鲁比奥称，有关谈判“取得进展，但尚未…</p><div class="card-meta"><span class="card-chip">央视网</span><span class="card-time">2026-08-05 10:32:10</span></div></article>
+<article class="card"><div class="card-header"><span class="card-num">47</span><a href="https://news.cctv.com/2026/08/05/ARTIkPWkRElFQmMY4TtetIU8260805.shtml" class="card-title" target="_blank" rel="noopener noreferrer">霍尔木兹海峡能否两日内重开 美伊说法不一</a></div><p class="card-summary">当地时间4日，伊朗与阿曼继续就划定霍尔木兹海峡新航线进行谈判。与此同时，有伊方高级官员称，美国政府试图阻挠伊朗与阿曼之…</p><div class="card-meta"><span class="card-chip">央视网</span><span class="card-time">2026-08-05 09:09:08</span></div></article>
+<article class="card"><div class="card-header"><span class="card-num">48</span><a href="http://finance.eastmoney.com/news/1351,202607313827431357.html" class="card-title" target="_blank" rel="noopener noreferrer">特朗普面临两难局面 美伊战火是否会升级？分析师们这么认为</a></div><p class="card-summary">随着美伊战火再起，美国再次面临一个难题：是升级冲突以报复伊朗袭击美国资产，还是集中精力补充紧张的弹药并平息全球能源市场…</p><div class="card-meta"><span class="card-chip">财联社</span><span class="card-time">2026-07-31 08:44:12</span></div></article>
+<article class="card"><div class="card-header"><span class="card-num">49</span><a href="https://news.cctv.com/2026/08/04/ARTIj4meeqB46OucYBcp0jWi260804.shtml" class="card-title" target="_blank" rel="noopener noreferrer">经济热点问答丨为什么美国关税“官司缠身”</a></div><p class="card-summary">美国25个州8月3日向美国国际贸易法院提起联合诉讼，要求裁定美国政府日前以所谓“强迫劳动”为由对60个国家和地区征收的…</p><div class="card-meta"><span class="card-chip">央视网</span><span class="card-time">2026-08-04 21:41:21</span></div></article></div></section>
+<section class="section" id="a-share"><h2 class="section-title"><span class="section-icon">📈</span>A股市场要闻 <span class="section-count">10</span></h2><div class="cards-grid"><article class="card"><div class="card-header"><span class="card-num">50</span><a href="http://finance.eastmoney.com/news/1351,202608013828807654.html" class="card-title" target="_blank" rel="noopener noreferrer">美联储“三鹰”释疑为何赞成加息 美债收益率飙升沃什还能扛多久？</a></div><p class="card-summary">【美联储“三鹰”释疑为何赞成加息 美债收益率飙升沃什还能扛多久？】当地时间周五，本周美联储货币政策会议上三位投反对票的…</p><div class="card-meta"><span class="card-chip">第一财经</span><span class="card-time">2026-08-01 07:23:26</span></div></article>
+<article class="card"><div class="card-header"><span class="card-num">51</span><a href="http://finance.eastmoney.com/news/11158,202608053832283067.html" class="card-title" target="_blank" rel="noopener noreferrer">A股“易中天”集体回应“美国光模块禁令”</a></div><p class="card-summary">【“易中天”集体回应“美国光模块禁令”】5日，A股通信设备板块开盘下跌，中际旭创跌超13%、联特科技跌超11%、新易盛…</p><div class="card-meta"><span class="card-chip">中新经纬</span><span class="card-time">2026-08-05 10:26:45</span></div></article>
+<article class="card"><div class="card-header"><span class="card-num">52</span><a href="http://finance.eastmoney.com/news/1350,202608053832581970.html" class="card-title" target="_blank" rel="noopener noreferrer">我国CCC认证指定机构暂停委托在美认证机构实施工厂跟踪检查</a></div><p class="card-summary">记者今天了解到，国家认证认可监督管理委员会决定，即日起，暂停我国强制性产品认证（CCC认证）指定机构委托在美认证机构实…</p><div class="card-meta"><span class="card-chip">每日经济新闻</span><span class="card-time">2026-08-05 16:03:36</span></div></article>
+<article class="card"><div class="card-header"><span class="card-num">53</span><a href="http://finance.eastmoney.com/news/1350,202608053832582677.html" class="card-title" target="_blank" rel="noopener noreferrer">我国强制性产品认证指定机构暂停委托在美认证机构实施工厂跟踪检查</a></div><p class="card-summary">人民财讯8月5日电，国家认证认可监督管理委员会决定，即日起，暂停我国强制性产品认证（CCC认证）指定机构委托在美认证机…</p><div class="card-meta"><span class="card-chip">证券时报网</span><span class="card-time">2026-08-05 16:08:00</span></div></article>
+<article class="card"><div class="card-header"><span class="card-num">54</span><a href="http://finance.eastmoney.com/news/11158,202608053832389059.html" class="card-title" target="_blank" rel="noopener noreferrer">一柜难求！局域网交易线路关闭 “近交易所”机房租金暴涨</a></div><p class="card-summary">【一柜难求！局域网交易线路关闭 “近交易所”机房租金暴涨】随着交易所关闭机房内原有局域网交易线路，将交易行情接入方式统…</p><div class="card-meta"><span class="card-chip">第一财经</span><span class="card-time">2026-08-05 12:37:36</span></div></article>
+<article class="card"><div class="card-header"><span class="card-num">55</span><a href="https://news.cctv.com/2026/08/04/ARTIs0BtQFolIZIBroHVrhEo260804.shtml" class="card-title" target="_blank" rel="noopener noreferrer">物流业景气指数继续扩张 市场需求进一步向好</a></div><p class="card-summary">中国物流与采购联合会8月4日公布：7月份中国物流业景气指数为50.4%，继续保持扩张。从分项指数看，市场需求进一步向好…</p><div class="card-meta"><span class="card-chip">央视网</span><span class="card-time">2026-08-04 20:24:34</span></div></article>
+<article class="card"><div class="card-header"><span class="card-num">56</span><a href="https://news.cctv.com/2026/08/05/ARTIIAW6QXKkw0rkxVHBPzsC260805.shtml" class="card-title" target="_blank" rel="noopener noreferrer">三项强制性国家标准明年实施 光伏产业将从内卷式竞争转向拼技术拼能效</a></div><p class="card-summary">记者8月4日从国家标准委了解到，三项光伏领域能耗能效强制性国家标准明年1月起正式实施，三项标准将从源头严控低效产品入市…</p><div class="card-meta"><span class="card-chip">央视网</span><span class="card-time">2026-08-05 10:21:46</span></div></article>
+<article class="card"><div class="card-header"><span class="card-num">57</span><a href="http://finance.eastmoney.com/news/1354,202608053832579982.html" class="card-title" target="_blank" rel="noopener noreferrer">英飞凌第三财季营收41.72亿欧元 利润7.97亿欧元</a></div><p class="card-summary">英飞凌公布2026财年第三季度（截至2026年6月30日）业绩：营收41.72亿欧元，利润7.97亿欧元，利润率19.…</p><div class="card-meta"><span class="card-chip">科创板日报</span><span class="card-time">2026-08-05 16:09:30</span></div></article>
+<article class="card"><div class="card-header"><span class="card-num">58</span><a href="http://finance.eastmoney.com/news/11838,202607313828327195.html" class="card-title" target="_blank" rel="noopener noreferrer">长鑫市值跻身全球TOP30！一图速览上市公司市值排名</a></div><p class="card-summary">7月31日早盘，国产存储龙头长鑫科技（688825.SH）股价一度冲高至60.60元，涨幅超过14%，总市值站上4万亿…</p><div class="card-meta"><span class="card-chip">东方财富研究中心</span><span class="card-time">2026-07-31 16:20:20</span></div></article>
+<article class="card"><div class="card-header"><span class="card-num">59</span><a href="https://news.cctv.com/2026/08/05/ARTIfUorqBSAr79ir7KMl9VW260805.shtml" class="card-title" target="_blank" rel="noopener noreferrer">感悟创新“小大由之”</a></div><p class="card-summary">不厌其小，方成其大。重大创新突破，往往都建立在一个个具体而微的创新基础之上。</p><div class="card-meta"><span class="card-chip">央视网</span><span class="card-time">2026-08-05 14:17:45</span></div></article></div></section>
+</main>
+<footer class="footer">
+<div class="container">
+<p>共收录 <strong>59</strong> 条动态 · 数据覆盖 8月4日 08:00 至 8月5日 08:00</p>
+<p class="footer-source">数据来源：AI HOT、东方财富、央视网</p>
+<p style="margin-top:6px;font-size:12px;color:var(--text-tertiary)">生成时间：2026-08-05 17:45:33 北京时间</p>
+</div>
+</footer>
+<script>
+(function(){
+const links=document.querySelectorAll('.nav-link');
+const sections=document.querySelectorAll('.section');
+const observer=new IntersectionObserver((entries)=>{
+entries.forEach(entry=>{
+if(entry.isIntersecting){
+const id=entry.target.id;
+links.forEach(l=>l.classList.toggle('active',l.getAttribute('href')==='#'+id));
+}
+});
+},{rootMargin:'-80px 0px -70% 0px',threshold:0});
+sections.forEach(s=>observer.observe(s));
+})();
+</script>
+</body>
+</html>
